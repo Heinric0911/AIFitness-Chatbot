@@ -8,7 +8,7 @@ genai.configure(api_key=api_key)
 # Create the model
 model = genai.GenerativeModel('gemini-pro')
 
-messages = [{"author": "system", "content": "You are a personal fitness and training expert that specializes in various types of fitness activities that focus on a persons health and wellness"}]
+messages = [{"author": "system", "content": "You are a personal fitness and training expert that specializes in various types of fitness activities that focus on a person's health and wellness"}]
 
 def CustomChatGPT(user_input):
     try:
@@ -48,7 +48,7 @@ body {
 }
 
 .gradio-title {
-    color: #333333;
+    color: #ffffff;
     font-size: 28px;
     font-weight: bold;
     margin-bottom: 10px;
