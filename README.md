@@ -8,4 +8,4 @@ The Fitness AI Bot provides personalized fitness advice using Google's Generativ
 4. Set your API key in the script.
 
 # Run 
-python fitness_ai_bot.py
+python FitnessAI.py
